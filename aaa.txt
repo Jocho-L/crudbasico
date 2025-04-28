@@ -1,0 +1,30 @@
+
+//npm = node package manager
+
+//Iniciar el proyecto (package.json)
+npm init -y
+
+//Instalar paquetes (package-lock.json + /node_modules)
+npm install express mysql ejs nodemon 
+
+//Estructura de directorios
+//Crear repositorio
+
+//Ejecutar el servidor Web recurrente
+nodemon app
+
+//Ejecutar consultas con variables
+//FORMA 1: Tradicional (similar a PHP)
+conexion.query("INSERT INTO cursos (nombre, nivel, profesor, precio) VALUES (?,?,?,?)", [v1, v2, v3, v4]);
+
+//FORMA 2: Orientada a objetos
+conexion.query("INSERT INTO cursos SET ?", {c1:v1, c2:v2, c3:v3, c4:v4});
+
+//INFO IMPORTANTE
+//En VSCode instalar
+//EJS Language support (DigitalBrainStem)
+//Motor de plantilla
+//FRONTEND + DATA (BACKEND)
+
+
+
